@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F8 Project 02</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+
+    <!-- Embed fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Sen:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header fixed">
+      <div class="main-content">
+        <div class="body">
+          <!-- Logo -->
+          <img
+            src="./assets/img/logo.svg"
+            alt="stars"
+            class="logo"
+            width="10%"
+          />
+
+          <!-- Nav -->
+          <nav class="nav">
+            <ul>
+              <li class="active">
+                <a href="#!">Home</a>
+              </li>
+              <li>
+                <a href="#!">CVs</a>
+              </li>
+              <li>
+                <a href="#!">Projects</a>
+              </li>
+              <li>
+                <a href="#!">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Action -->
+          <div class="action">
+            <a href="#!" class="btn sign-up-btn">Sign up</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <div class="hero">
+        <div class="main-content">
+          <div class="body">
+            <!-- Hero left -->
+            <div class="media-block">
+              <img
+                src="./assets/img/anhhero1.jpg"
+                alt="Learn without limits and spread knowledge."
+                class="img"
+              />
+
+              <div class="hero-summary">
+                <div class="item">
+                  <div class="icon">
+                    <img src="./assets/img/Orion_page.svg" alt="" />
+                  </div>
+                  <div class="info">
+                    <p class="label">ADORATION</p>
+                    <p class="title">HISTORY</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="icon">
+                    <img src="./assets/img/Orion_code-window.svg" alt="" />
+                  </div>
+                  <div class="info">
+                    <p class="label">LOVE</p>
+                    <p class="title">WEB, AI</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="icon">
+                    <img src="./assets/img/Orion_megaphone.svg" alt="" />
+                  </div>
+                  <div class="info">
+                    <p class="label">HOBBIES</p>
+                    <p class="title">Badminton, Esports</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Hero right -->
+            <div class="content-block">
+              <h1 class="heading lv1">Hi, I'm Le Duc Dat</h1>
+              <p class="desc">
+                I am from Phu Yen, Vietnam, and I am proud of my roots. I am
+                gentle, diligent, unafraid of hardships, and never give up.
+                Welcome to my blog, where I share everything I've experienced
+                throughout my life, as well as my CV, the projects I've
+                completed, what I am currently working on, and what I plan to do
+                in the near future.
+              </p>
+              <div class="cta-group">
+                <a href="#!" class="btn hero-cta">Full biography</a>
+                <button class="watch-video">
+                  <div class="icon">
+                    <img src="./assets/img/buttonplay.svg" alt="" />
+                  </div>
+                  <span>Intro</span>
+                </button>
+              </div>
+              <p class="desc">What I have</p>
+              <p class="desc stats">
+                <strong>50%</strong> Hardcore <strong>50%</strong> Strength
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Popular -->
+      <div class="popular">
+        <div class="main-content">
+          <div class="popular-top">
+            <div class="info">
+              <h2 class="heading lv2">My posts</h2>
+              <p class="desc">The latest blog posts are here.</p>
+            </div>
+            <div class="controls">
+              <button class="control-btn">
+                <svg
+                  width="8"
+                  height="14"
+                  viewBox="0 0 8 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7 1L1 7L7 13"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <button class="control-btn">
+                <svg
+                  width="8"
+                  height="14"
+                  viewBox="0 0 8 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L7 7L1 13"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="course-list">
+            <!-- Course item 1 -->
+            <div class="course-item">
+              <a href="#!">
+                <img
+                  src="./assets/img/c1.jpg"
+                  alt="Basic web design"
+                  class="thumb"
+                />
+              </a>
+              <div class="info">
+                <div class="head">
+                  <h3 class="title">
+                    <a href="#!" class="line-clamp break-all">
+                      Primary School
+                    </a>
+                  </h3>
+                  <div class="rating">
+                    <img
+                      src="./assets/img/Star 6.svg"
+                      alt="Star"
+                      class="star"
+                    />
+                    <span class="value">4.5</span>
+                  </div>
+                </div>
+                <p class="desc line-clamp line-2 break-all">
+                  When I was young...
+                </p>
+                <div class="foot">
+                  <span class="price">120</span>
+                  <button class="btn book-btn">See more</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Course item 2 -->
+            <div class="course-item">
+              <a href="#!">
+                <img
+                  src="./assets/img/c2.jpg"
+                  alt="UI/UX design"
+                  class="thumb"
+                />
+              </a>
+              <div class="info">
+                <div class="head">
+                  <h3 class="title">
+                    <a href="#!" class="line-clamp break-all">
+                      Secondary School
+                    </a>
+                  </h3>
+                  <div class="rating">
+                    <img
+                      src="./assets/img/Star 6.svg"
+                      alt="Star"
+                      class="star"
+                    />
+                    <span class="value">4.5</span>
+                  </div>
+                </div>
+                <p class="desc line-clamp line-2 break-all">
+                  After 5 years in 2 schools...
+                </p>
+                <div class="foot">
+                  <span class="price">110</span>
+                  <button class="btn book-btn">See more</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Course item 3 -->
+            <div class="course-item">
+              <a href="#!">
+                <img
+                  src="./assets/img/c3.jpg"
+                  alt="Web App design"
+                  class="thumb"
+                />
+              </a>
+              <div class="info">
+                <div class="head">
+                  <h3 class="title">
+                    <a href="#!" class="line-clamp break-all"> High school </a>
+                  </h3>
+                  <div class="rating">
+                    <img
+                      src="./assets/img/Star 6.svg"
+                      alt="Star"
+                      class="star"
+                    />
+                    <span class="value">4.5</span>
+                  </div>
+                </div>
+                <p class="desc line-clamp line-2 break-all">
+                  Welcome to Luong Van Chanh...
+                </p>
+                <div class="foot">
+                  <span class="price">120</span>
+                  <button class="btn book-btn">See more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feedback -->
+      <div class="feedback">
+        <div class="main-content">
+          <div class="feedback-list">
+            <!-- Feedback item 1 -->
+            <div class="feedback-item">
+              <div class="info">
+                <img src="./assets/img/quote1.jpg" alt="Dat" class="avatar" />
+                <p class="title">Le Duc Dat</p>
+                <p class="desc">Primary</p>
+                <div class="dots">
+                  <span class="dot active"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+              <div class="content">
+                <img src="./assets/img/Vector.svg" alt="" class="open-quotes" />
+                <blockquote>
+                  I'm the heroine, I'm the only one, I'm the best."
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- Feedback item 2 -->
+            <div class="feedback-item">
+              <div class="info">
+                <img src="./assets/img/quote2.jpg" alt="Dat" class="avatar" />
+                <p class="title">Le Duc Dat</p>
+                <p class="desc">Secondary</p>
+                <div class="dots">
+                  <span class="dot"></span>
+                  <span class="dot active"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+              <div class="content">
+                <img
+                  src="./assets/img/open-quotes.svg"
+                  alt=""
+                  class="open-quotes"
+                />
+                <blockquote>
+                  I'm not the best, but I'm the only one can do everything."
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- Feedback item 3 -->
+            <div class="feedback-item">
+              <div class="info">
+                <img src="./assets/img/quote3.jpg" alt="Dat" class="avatar" />
+                <p class="title">Le Duc Dat</p>
+                <p class="desc">High School</p>
+                <div class="dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot active"></span>
+                </div>
+              </div>
+              <div class="content">
+                <img
+                  src="./assets/img/open-quotes.svg"
+                  alt=""
+                  class="open-quotes"
+                />
+                <blockquote>
+                  I have my own road, all roads lead to me."
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Features 1 -->
+      <div class="features">
+        <div class="main-content">
+          <div class="body">
+            <div class="images">
+              <img class="lower" src="./assets/img/cv1.jpg" alt="CV1" />
+              <img src="./assets/img/cv2.png" alt="CV2" />
+            </div>
+            <div class="content">
+              <h2 class="heading lv2">CV FE DEV - AI Engineer</h2>
+              <p class="desc">
+                Here are the two versions of my CV at the moment. The first one
+                is for applying to the position of AI Engineer Intern - Fresher,
+                which aligns with my major in school. The second one is for
+                applying to the position of Frontend Developer.
+              </p>
+              <p class="desc">There will be updates in the future.</p>
+              <a href="#!" class="btn cta-btn">Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Features 2 -->
+      <div class="features features-2nd">
+        <div class="main-content">
+          <div class="body">
+            <div class="images">
+              <img src="./assets/img/tutor.jpg" alt="CV3." />
+            </div>
+            <div class="content">
+              <h2 class="heading lv2">CV Tutor</h2>
+              <p class="desc">
+                Here is my CV for applying for the position of Tutor on any
+                platforms I can find on the Internet. I aim to share my
+                knowledge, particularly in Math, Chemistry, History, and general
+                knowledge for participating in the Road to Mount Olympia
+                competition on VTV.
+              </p>
+              <a href="#!" class="btn cta-btn">Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <div class="projects">
+        <div class="main-content">
+          <div class="projects-top">
+            <h2 class="heading lv2">My projects</h2>
+            <p class="desc">
+              There are some projects that maybe good for your learning at
+              university below.
+            </p>
+          </div>
+          <div class="projects-list">
+            <!-- Project item 1 -->
+            <div class="item">
+              <a href="#!">
+                <img src="./assets/img/prj1.png" alt="prj1" class="thumb" />
+              </a>
+              <div class="info">
+                <span class="date">03/2023</span>
+                <h3 class="title">
+                  <a href="#!">
+                    Compare accuracy of LLM Models and show stats.
+                  </a>
+                </h3>
+                <a href="#!" class="btn">Code</a>
+              </div>
+            </div>
+
+            <!-- Project item 2 -->
+            <div class="item">
+              <a href="#!">
+                <img src="./assets/img/prj2.webp" alt="prj02" class="thumb" />
+              </a>
+              <div class="info">
+                <span class="date">08/2023</span>
+                <h3 class="title">
+                  <a href="#!"> Object Detection with YOLO v3 and ESP32 </a>
+                </h3>
+                <a href="#!" class="btn">Code</a>
+              </div>
+            </div>
+
+            <!-- Project item 3 -->
+            <div class="item">
+              <a href="#!">
+                <img src="./assets/img/prj3.jpg" alt="prj03" class="thumb" />
+              </a>
+              <div class="info">
+                <span class="date">21 November 2021</span>
+                <h3 class="title">
+                  <a href="#!"> Parallel Programming CNN with C++ and Colab </a>
+                </h3>
+                <a href="#!" class="btn">Code</a>
+              </div>
+            </div>
+            <!-- Project item 4 -->
+            <div class="item">
+              <a href="#!">
+                <img src="./assets/img/prj1.png" alt="prj1" class="thumb" />
+              </a>
+              <div class="info">
+                <span class="date">03/2023</span>
+                <h3 class="title">
+                  <a href="#!">
+                    Compare accuracy of LLM Models and show stats.
+                  </a>
+                </h3>
+                <a href="#!" class="btn">Code</a>
+              </div>
+            </div>
+
+            <!-- Project item 5 -->
+            <div class="item">
+              <a href="#!">
+                <img src="./assets/img/prj2.webp" alt="prj02" class="thumb" />
+              </a>
+              <div class="info">
+                <span class="date">08/2023</span>
+                <h3 class="title">
+                  <a href="#!"> Object Detection with YOLO v3 and ESP32 </a>
+                </h3>
+                <a href="#!" class="btn">Code</a>
+              </div>
+            </div>
+
+            <!-- Project item 6 -->
+            <div class="item">
+              <a href="#!">
+                <img src="./assets/img/prj3.jpg" alt="prj03" class="thumb" />
+              </a>
+              <div class="info">
+                <span class="date">21 November 2021</span>
+                <h3 class="title">
+                  <a href="#!"> Parallel Programming CNN with C++ and Colab </a>
+                </h3>
+                <a href="#!" class="btn">Code</a>
+              </div>
+            </div>
+            <!-- Project item 7 -->
+            <div class="item">
+              <a href="#!">
+                <img src="./assets/img/prj1.png" alt="prj1" class="thumb" />
+              </a>
+              <div class="info">
+                <span class="date">03/2023</span>
+                <h3 class="title">
+                  <a href="#!">
+                    Compare accuracy of LLM Models and show stats.
+                  </a>
+                </h3>
+                <a href="#!" class="btn">Code</a>
+              </div>
+            </div>
+
+            <!-- Project item 8 -->
+            <div class="item">
+              <a href="#!">
+                <img src="./assets/img/prj2.webp" alt="prj02" class="thumb" />
+              </a>
+              <div class="info">
+                <span class="date">08/2023</span>
+                <h3 class="title">
+                  <a href="#!"> Object Detection with YOLO v3 and ESP32 </a>
+                </h3>
+                <a href="#!" class="btn">Code</a>
+              </div>
+            </div>
+
+            <!-- Project item 9 -->
+            <div class="item">
+              <a href="#!">
+                <img src="./assets/img/prj3.jpg" alt="prj03" class="thumb" />
+              </a>
+              <div class="info">
+                <span class="date">21 November 2021</span>
+                <h3 class="title">
+                  <a href="#!"> Parallel Programming CNN with C++ and Colab </a>
+                </h3>
+                <a href="#!" class="btn">Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="main-content">
+        <div class="row">
+          <!-- Column 1 -->
+          <div class="column">
+            <img
+              src="./assets/img/logo.svg"
+              alt="Lesson."
+              class="logo"
+              width="10%"
+            />
+            <p class="desc">
+              I am gifted, so are you! If you have questions, please contact
+              below.
+            </p>
+            <div class="socials">
+              <a href="#!">
+                <img
+                  src="./assets/img/github.png"
+                  alt="Twitter"
+                  class="icon"
+                  width="15px"
+                  height="15px"
+                />
+              </a>
+              <a href="#!">
+                <img
+                  src="./assets/img/Facebook.svg"
+                  alt="Facebook"
+                  class="icon"
+                />
+              </a>
+              <a href="#!">
+                <img
+                  src="./assets/img/Linkedin.svg"
+                  alt="Linkedin"
+                  class="icon"
+                />
+              </a>
+              <a href="#!">
+                <img
+                  src="./assets/img/ytb.png"
+                  alt="Instagram"
+                  class="icon"
+                  width="15px"
+                  height="15px"
+                />
+              </a>
+            </div>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="column">
+            <h3 class="title">Myself</h3>
+            <ul class="list">
+              <li>
+                <a href="#!">About Me</a>
+              </li>
+              <li>
+                <a href="#!">Features</a>
+              </li>
+              <li>
+                <a href="#!">Value</a>
+              </li>
+              <li>
+                <a href="#!">Latest Blogs</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="column">
+            <h3 class="title">Support</h3>
+            <ul class="list">
+              <li>
+                <a href="#!">FAQ’s</a>
+              </li>
+              <li>
+                <a href="#!">Terms & Conditions</a>
+              </li>
+              <li>
+                <a href="#!">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#!">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column 4 -->
+          <div class="column">
+            <h3 class="title">Address</h3>
+            <ul class="list">
+              <li>
+                <a href="#!">
+                  <strong>Location:</strong> Phuoc Binh Bac, Hoa Thanh Village,
+                  Dong Hoa District, Phu Yen Province, Vietnam
+                </a>
+              </li>
+              <li>
+                <a href="#!"> <strong>Email:</strong> dat20026969@gmail.com </a>
+              </li>
+              <li>
+                <a href="#!"> <strong>Phone:</strong> (+84) 888 514 045 </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright ©2022 webdesign.gdn All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
